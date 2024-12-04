@@ -1,0 +1,86 @@
+/* styles/ReserveTable.css */
+
+.container {
+    
+    padding: 20px;
+    max-width: 1000px;
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: -400px;
+    color: white;
+  }
+  
+  .reservation-table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-left: -250px;
+    background-color: #ffffff;
+  }
+  
+  .reservation-table th,
+  .reservation-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .btn-accept {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .btn-accept:hover {
+    background-color: #218838;
+  }
+  
+  .btn-reject {
+    background-color: #dc3545;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .btn-reject:hover {
+    background-color: #c82333;
+  }
+  
+  .status-accepted {
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .status-rejected {
+    color: #dc3545;
+    font-weight: bold;
+  }
+  .accept-btn, .reject-btn {
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .reject-btn {
+    background-color: #f44336; /* Red */
+  }
+  

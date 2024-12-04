@@ -1,0 +1,23 @@
+/* Path: restaurant/components/SearchFilter/searchFilter.css */
+.search-filter {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-input2 {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1;
+    margin-left: 200px;
+    width: 700px;
+  }
+  
+  .category-dropdown {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 200px;
+  }
+  
